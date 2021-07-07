@@ -1,4 +1,4 @@
-# This code is based on 'Numercial Methods For Engineers , Steven C.Chapra, Raymond P.Canale"
+# This code is based on '칼만 필터는 어렵지 않아,김성필"
 # code developer : yunjin Kyung, MyoungJi univerity
 import numpy as np
 
