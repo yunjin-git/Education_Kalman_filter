@@ -36,4 +36,7 @@ def MovAvgfilter(i,n,xm,xmsaved) :
     result = (xm + sum)  / n
     return result
 
-
+def LPF (alpha,xm,prevX) :
+    xlpf = alpha * prevX + (1 -alpha)*xm  
+    return xlpf
+    
