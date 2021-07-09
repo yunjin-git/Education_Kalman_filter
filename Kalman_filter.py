@@ -27,12 +27,13 @@ def Avgfilter(k,meas_x,pre_avg):
     avg = a*pre_avg+(1-a)*meas_x  # Return Array init
     return avg
 
-def MovAvgfilter (data,k) :
-    n=1
-    num_of_data = data.shape[0]
-    result = np.zeros(num_of_data)# Return Array init
-    while n < num_of_data :
-        result[n] = result[n-1]+(data[n]-data[n-k])/k
-        n=n+1
-
+def MovAvgfilter(i,n,xm,xmsaved) : 
+    loop = 0
+    sum = 0
+    while loop < n or loop == n :
+        sum= sum +xmsaved[i-loop]
+        loop = loop +1 
+    result = (xm + sum)  / n
     return result
+
+
