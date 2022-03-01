@@ -1,8 +1,9 @@
 # Kalman_Filter_is_not_Difficult
 ### Reference Book : "칼만 필터는 어렵지 않아 with MATLAB Examples ( 김성필 , 한빛미디어 )"
-''
+Link : http://www.yes24.com/Product/Goods/73621194 (yes24)
+
 한빛 미디어의 "칼만 필터는 어렵지 않아 with MATLAB Examples" 를 참고하여 MATLAB 예제를 파이썬으로 작성함.
-''
+
 
 
 ### 목차
