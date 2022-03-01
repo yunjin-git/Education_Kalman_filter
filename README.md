@@ -1,9 +1,11 @@
-# 아래의 책 예제 MATLab 예제를 Jupyter Notebook 예제로 변환한 문서입니다.
+# 칼만필터, 파이썬으로 따라하기 
 
-##  "[칼만필터는 어렵지 않아 With MatLab Example](http://www.yes24.com/Product/Goods/73621194)" 
+"[칼만필터는 어렵지 않아 With MatLab Example (김성필,한빛미디어)](http://www.yes24.com/Product/Goods/73621194)"에 소개된 MATLAB 예제를 Python 문법으로 변환한 내용입니다.
+
+예제의 변환이 완료되면 [FilterPy](https://filterpy.readthedocs.io/en/latest/) 를 이용한 예제를 만들어 볼 예정입니다.
 
 
-### Contents
+### 목차 ( Contents )
 * **Part01. 재귀 필터 ( Recursive Filter )**
   * [Chapter01. 평균 필터 (Average Filter)]
   * [Chapter02. 이동 평균 필터 (Moving Average Filter)]
